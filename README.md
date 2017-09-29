@@ -33,23 +33,13 @@ You can then join this assignment [here](https://classroom.github.com/assignment
   ```
   curl https://www2.census.gov/geo/tiger/TIGER2016/TRACT/tl_2016_17_tract.zip -o il_tracts.zip
   ```
-  or alternatively, edit the test-suite.py script, so that that line (21) is not commented out.
   (If you are checking out this script a bit later, it should be fixed.) 
-* Issue the command `./test-suite.py`.  It should end by `Congrats!  Check-out looks great!` 
-  It will also create a `test-suite.txt` file, that you will submit as part of your homework, 
-    along with `density.pdf` and `ba_frac.pdf`.
-  If you don't get the `Congrats!` or if the pictures are blank...
-    if it fails in any way, it will not work for you in the long run.
-  Try to figure out, but if you can't you **must get help!!** 
-  The TAs and I will be very generous with help this week, with several sessions.
-  But we cannot do this for the entire quarter,
-    and any technical problems will make your subsequent assignments and lecture participation much more frustrating!!
-  * If you have the error: 
-    ```
-    OSError: Could not find lib geos_c or load any of its variants ['/Library/Frameworks/GEOS.framework/Versions/Current/GEOS', '/opt/local/lib/libgeos_c.dylib'].
-    ```
-    on a Mac, please hold tight for a day.  I'll find a fix, but haven't yet, because I can't reproduce it on my own machine.
-* Open jupyter, and then find `test-suite.ipynb`.  Run every cell in the notebook (`Shift+Enter` or Cell → Run All).  This should end with a nice, interactive map.  This is not graded and you should not commit it (it will be large!).  But if it doesn't work, now is the time to get help.
+* Issue the command:
+  ```
+  python -c "import pandas; print(pandas.__version__)"
+  ```
+  you should get back 0.20.3 or 0.20.1.
+* Open jupyter, and then find `test-suite.ipynb`.  Try running the notebook (`Shift+Enter` or Cell → Run All), but don't worry if the geographic issues I mentioned in the email show up again.
 
 &nbsp;<details><summary>FAQs and Common Problems</summary>
 * We'll see what questions we get...
