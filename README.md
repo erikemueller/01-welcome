@@ -87,7 +87,7 @@ Enrichment:
 
 8. How many of them are detectives?
 9. What is the modal salary among firepeople (employees of the fire department)?
-10. What are the most common women's names for police officers (incl. detectives)?  (It's a tie with 35 of each.../)
+10. What is the most common woman's name for police officers (incl. detectives)?  (You'll look for this by eye, around 37)
 
 ## Push to GitHub
 
