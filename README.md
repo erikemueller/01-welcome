@@ -80,7 +80,7 @@ Required:
 3. How full-time workers are there in the file?
 4. How part-time workers are there in the file?  (Check you work for 2, with 3 and 4.)
 5. What is the highest hourly wage in the city?
-6. Excluding the top four workers (who are doctors), what is the highest hourly wage?
+6. Excluding the top three workers (who are doctors), what is the highest hourly wage?
 7. How many people work for the police department?
 
 Enrichment:
