@@ -39,7 +39,7 @@ You can then join this assignment [here](https://classroom.github.com/assignment
   python -c "import pandas; print(pandas.__version__)"
   ```
   you should get back 0.20.3 or 0.20.1.
-* Open jupyter, and then find `test-suite.ipynb`.  Try running the notebook (`Shift+Enter` or Cell → Run All), but don't worry if the geographic issues I mentioned in the email show up again.
+* Open jupyter, and then find `test-suite.ipynb`.  Try running the notebook (`Shift+Enter` or Cell → Run All).  But don't worry if you still have problems with the install, for the submission deadline.  We're just looking for your salaries.sh and SOLUTIONS file.
 
 &nbsp;<details><summary>FAQs and Common Problems</summary>
 * We'll see what questions we get...
@@ -106,7 +106,7 @@ Now go online to your GitHub repository page (with substitutions!), to check tha
 
 Note that this is in the classroom (harris-ippp) organization, not your own area.
 
-You should have committed five files: `salaries.sh`, `SOLUTIONS`, `ba_frac.pdf`, `density.pdf`, and `test-suite.txt`.
+You should have committed two files: `salaries.sh` and `SOLUTIONS` -- and if possible `ba_frac.pdf`, `density.pdf`, and `test-suite.txt`.
 
 Make sure it's in before Wednesday October 4th at 1:30am!
 
